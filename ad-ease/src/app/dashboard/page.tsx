@@ -1,10 +1,11 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { supabase } from 'lib/supabase'
-import { PromptForm } from '@/components/PromptForm'
-import { ImageGrid } from '@/components/ImageGrid'
+import { supabase } from '@/lib/supabase'
+import { PromptForm } from '@/components/ui/PromptForm'
+import { ImageGrid } from '@/components/ui/ImageGrid'
 import { useRouter } from 'next/navigation'
+
 
 export default function Dashboard() {
   const [images, setImages] = useState<string[]>([])
