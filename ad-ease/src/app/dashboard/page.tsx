@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { supabase } from '@/lib/supabase'
+import { supabase } from 'lib/supabase'
 import { PromptForm } from '@/components/PromptForm'
 import { ImageGrid } from '@/components/ImageGrid'
 import { useRouter } from 'next/navigation'

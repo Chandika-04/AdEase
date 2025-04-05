@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { Textarea } from '@/components/ui/textarea'
 import { Button } from '@/components/ui/button'
+
 import { motion } from 'framer-motion'
 
 export function PromptForm({ onGenerate }: { onGenerate: (prompt: string) => void }) {
